@@ -14,6 +14,8 @@ from selene.support.shared.jquery_style import s
 def test_github():
     browser.open('https://github.com')
 
+
+
     s('.header-search-input').click()
     s('.header-search-input').send_keys('tema1255/qa_guru_hw_4_9')
     s('.header-search-input').submit()
